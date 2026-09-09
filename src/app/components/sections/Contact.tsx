@@ -90,13 +90,6 @@ export default function Contact() {
                   window.open("https://github.com/milty90", "_blank");
                 }}
               >
-                <Image
-                  src="/mona.gif"
-                  alt="Github"
-                  width={24}
-                  height={24}
-                  className="-ml-1"
-                />
                 <span>GitHub</span>
               </button>
             </div>

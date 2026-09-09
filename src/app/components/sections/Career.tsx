@@ -19,8 +19,8 @@ export default function Career() {
             Ein kurzer Überblick
           </p>
         </div>
-        <div className="flex flex-col  text-ink">
-          <div className="flex flex-col md:flex-row md:items-center border-b border-t border-line gap-2 md:gap-6 py-8 ">
+        <div className="flex flex-col divide-y divide-line text-ink">
+          <div className="flex flex-col md:flex-row md:items-center  border-line gap-2 md:gap-6 py-8 ">
             <p className="md:w-35 text-blue-soft font-mono ">2025 — heute</p>
             <div>
               <h3 className="text-ink font-bold text-lg ">
@@ -35,7 +35,7 @@ export default function Career() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row border-b md:items-center h-fit border-line gap-2 md:gap-6 py-8 ">
+          <div className="flex flex-col md:flex-row md:items-center h-fit border-line gap-2 md:gap-6 py-8 ">
             <p className="nowrap md:w-35 font-mono text-blue-soft">
               2023 — heute
             </p>

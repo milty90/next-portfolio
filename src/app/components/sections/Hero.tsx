@@ -40,7 +40,7 @@ export default function Hero() {
             <ColorButton
               color="transparent"
               height="py-3"
-              border="hidden md:block border-2 border-blue hover:border-ink hover:text-bg"
+              border="hidden md:block hover:border-ink hover:text-bg"
               text="Kontakt aufnehmen"
               onClick={() => {
                 const contactSection = document.getElementById("contact");
@@ -53,7 +53,7 @@ export default function Hero() {
         </div>
         <div className="relative flex justify-center pb-0">
           <div className="absolute w-[80%] h-[98%] top-[2%] right-[2%] z-0 bg-[radial-gradient(circle_at_70%_25%,var(--color-copper)_0%,rgba(198,139,87,0)_42%),radial-gradient(circle_at_25%_80%,var(--color-blue)_0%,rgba(61,90,138,0)_50%)] blur-[38px] opacity-55"></div>
-          <div className="relative sm:w-3/4 z-1 md:w-3/4 md:ml-auto rounded-3xl bg-panel outline-3 outline-offset-5 outline-line overflow-hidden ">
+          <div className="relative sm:w-3/4 z-1 md:w-3/4 md:ml-auto rounded-3xl bg-panel outline-2 outline-offset-3 outline-line overflow-hidden ">
             <Image
               src="/me.jpg"
               alt="Porträt von Milan"

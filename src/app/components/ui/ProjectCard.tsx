@@ -42,7 +42,7 @@ export default function ProjectCard({
           <div className="flex gap-1.5 text-[0.75rem] text-ink-soft font-mono flex-wrap">
             {tags.map((t) => (
               <span
-                className="text-[0.75rem] border rounded-2xl text-ink border-blue/80 px-3 py-1 "
+                className="text-[0.75rem] bg-blue/20 rounded-2xl text-ink px-3 py-1 "
                 key={t}
               >
                 {t}

@@ -18,8 +18,8 @@ export default function Values() {
             Warum mit mir arbeiten
           </h2>
         </div>
-        <div className="flex flex-col justify-start text-ink">
-          <div className="grid md:grid-flow-col items-center justify-between border-t border-line gap-4 py-10 ">
+        <div className="flex flex-col divide-y divide-line justify-start text-ink">
+          <div className="grid md:grid-flow-col items-center justify-between  gap-4 py-10 ">
             <div className="grid md:grid-flow-col items-center justify-between gap-2 md:gap-20">
               <span className=" text-blue-soft font-mono max-w-[4ch]">01</span>
               <h3 className="text-ink font-bold text-lg">Sauberer Code</h3>
@@ -29,7 +29,7 @@ export default function Values() {
               für eine nachhaltige Entwicklung, an der auch andere Freude haben.
             </p>
           </div>
-          <div className="grid md:grid-flow-col justify-between items-center border-b border-t border-line gap-4 py-10 ">
+          <div className="grid md:grid-flow-col justify-between items-center  gap-4 py-10 ">
             <div className="grid md:grid-flow-col items-center justify-between gap-2 md:gap-20">
               <span className=" text-blue-soft font-mono max-w-[4ch]">02</span>
               <h3 className="text-ink font-bold text-lg">Schnelles Lernen</h3>
@@ -39,7 +39,7 @@ export default function Values() {
               Anwendungsszenarien an.
             </p>
           </div>
-          <div className="grid md:grid-flow-col justify-between border-b md:items-center border-line gap-4 py-10 ">
+          <div className="grid md:grid-flow-col justify-between  md:items-center gap-4 py-10 ">
             <div className="grid md:grid-flow-col items-center justify-between gap-2 md:gap-20">
               <span className=" text-blue-soft font-mono max-w-[4ch]">03</span>
               <h3 className="text-ink font-bold text-lg">Blick fürs Detail</h3>
