@@ -1,0 +1,43 @@
+export const projects = [
+  {
+    id: "1",
+    position: 1,
+    title: "Spark KVP Management",
+    desc: "Spark ist die digitale KVP-Lösung zum Erfassen, Strukturieren und Nachverfolgen von Verbesserungsideen. Für ein transparentes und kontinuierliches Ideenmanagement im Arbeitsalltag.",
+    img: "/spark.png",
+    tags: ["React", "Tailwind CSS", "TypeScript", "Vite", "Supabase"],
+    code: "https://github.com/milty90/kvp-management-main",
+    live: "https://pdcamanagement.com",
+  },
+  {
+    id: "2",
+    position: 2,
+    title: "Webseite Mamma Mia",
+    desc: "Eine responsive Webseite für das Restaurant Mamma Mia, erstellt mit HTML5 und CSS3. Inklusive moderner Layouts, Animationen.",
+    img: "https://milantyopity.com/project_1.jpg",
+    tags: ["HTML5", "CSS3", "Responsive Design"],
+    code: "https://github.com/milty90/The-Restaurant-Project",
+    live: "https://the-restaurant-project.onrender.com/",
+  },
+
+  {
+    id: "3",
+    position: 3,
+    title: "Wetter App",
+    desc: "Eine moderne Wetter-App auf Basis von Vanilla JS, HTML und SCSS, die aktuelle Wetterdaten einer öffentlichen API verarbeitet. Sie sorgt für ein ansprechendes Layout und ein zeitgemäßes Design.",
+    img: "/wetter.png",
+    tags: ["HTML5", "SCSS", "JavaScript", "Vite", "API", "BEM"],
+    code: "https://github.com/milty90/wetter-app",
+    live: "https://wetter-app-5zxj.onrender.com/",
+  },
+  {
+    id: "4",
+    position: 4,
+    title: "Dev _Board",
+    desc: "DevBoard ist ein kompaktes Projektmanagement-Tool auf Basis von React, TypeScript, Tailwind CSS und shadcn/ui. Es bietet eine intuitive Drag-and-Drop Oberfläche.",
+    img: "/devboard.jpg",
+    tags: ["React", "Tailwind CSS", "TypeScript", "Shadcn UI", "Drag and Drop"],
+    code: "https://github.com/milty90/spark-kvp-management",
+    live: "https://devboard-7vsd.onrender.com/boards",
+  },
+];

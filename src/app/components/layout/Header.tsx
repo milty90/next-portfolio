@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import ColorButton from "../ui/ColorButton";
 
@@ -15,12 +16,12 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-bg-alt/20 backdrop-blur-md border-b border-line">
       <nav className="flex flex-row items-center font-bold justify-between px-7 p-4.5 max-w-(--maxw) mx-auto">
-        <a
+        <Link
           href="#top"
           className="flex font-space text-ink text-[1.1rem] gap-0.5"
         >
           Milan<span className="text-blue">.</span>Tyopity
-        </a>
+        </Link>
 
         <ul
           className={`absolute top-15.5 left-0 bg-bg-alt/95 w-full pl-10 py-5 flex-col justify-center gap-7.5 ${
@@ -29,13 +30,13 @@ export default function Header() {
         >
           {links.map((l) => (
             <li key={l.href}>
-              <a
+              <Link
                 href={l.href}
                 className="text-ink/85 text-[0.9rem] gap-4 tracking-wide font-normal relative after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-blue hover:text-ink after:transition-all after:duration-300 hover:after:w-full"
                 onClick={() => setOpen(false)}
               >
                 {l.label}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
