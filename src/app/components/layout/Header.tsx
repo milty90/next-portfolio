@@ -15,7 +15,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-bg-alt/20 backdrop-blur-md border-b border-line">
-      <nav className="flex flex-row items-center font-bold justify-between px-7 p-4.5 max-w-(--maxw) mx-auto">
+      <nav className="flex flex-row items-center font-bold justify-between px-7 p-4 max-w-(--maxw) mx-auto">
         <Link
           href="#top"
           className="flex font-space text-ink text-[1.1rem] gap-0.5"
