@@ -32,7 +32,7 @@ export default function Header() {
             <li key={l.href}>
               <Link
                 href={l.href}
-                className="text-ink/85 text-[0.9rem] gap-4 tracking-wide font-normal relative after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-blue hover:text-ink after:transition-all after:duration-300 hover:after:w-full"
+                className="text-ink/85 text-[0.9rem] gap-4 tracking-wide font-normal relative text-ink-soft hover:text-blue transition-colors duration-300 hover:text-blue-soft transition-colors duration-300"
                 onClick={() => setOpen(false)}
               >
                 {l.label}

@@ -1,3 +1,4 @@
+import Image from "next/image";
 interface ProjectCardProps {
   size?: string;
   title: string;
@@ -21,11 +22,13 @@ export default function ProjectCard({
     <div className={`flex flex-col overflow-hidden max-h-150 rounded ${size}`}>
       <div className={` relative overflow-hidden rounded-t-3xl ${size}`}>
         <div className="absolute inset-0 bg-bg/10"></div>
-        <img
+        <Image
           className="object-cover  rounded-t-3xl pt-1 px-1 "
+          width={1024}
+          height={731}
           src={img}
           alt={title}
-          loading="lazy"
+          loading="eager"
         />
       </div>
       <div

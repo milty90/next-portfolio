@@ -57,6 +57,7 @@ export default function Hero() {
             <Image
               src="/me.jpg"
               alt="Porträt von Milan"
+              loading="eager"
               width={1024}
               height={731}
               className="w-full object-cover aspect-3/4 md:aspect-2/4 lg:aspect-3/4 object-[44%_25%] filter contrast-[1.04] saturate-[1.05]"
