@@ -4,8 +4,6 @@ import Stack from "../components/sections/Stack";
 import Portfolio from "../components/sections/Portfolio";
 import Values from "../components/sections/Values";
 import Contact from "../components/sections/Contact";
-import Footer from "../components/layout/Footer";
-import Header from "../components/layout/Header";
 import Career from "../components/sections/Career";
 
 export default function Home() {
