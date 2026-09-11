@@ -34,7 +34,7 @@ export default function Portfolio() {
           </h2>
         </div>
         <div
-          className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-6 opacity-0 translate-y-7.5 transition-all duration-700 data-[revealed=true]:opacity-100 data-[revealed=true]:translate-y-0"
+          className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-6 opacity-100 md:opacity-0 md:translate-y-7.5 transition-all duration-700 data-[revealed=true]:opacity-100 data-[revealed=true]:translate-y-0"
           ref={ref}
         >
           {projectsData

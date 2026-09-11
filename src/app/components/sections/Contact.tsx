@@ -1,7 +1,6 @@
 "use client";
 import { useRevealOnScroll } from "../hooks/useRevealOnScroll";
 import ColorButton from "../ui/ColorButton";
-import Image from "next/image";
 
 export default function Contact() {
   const ref = useRevealOnScroll<HTMLDivElement>();

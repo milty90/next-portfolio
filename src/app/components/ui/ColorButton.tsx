@@ -14,12 +14,6 @@ export default function ColorButton({
   border,
   onClick,
 }: ColorButtonProps) {
-  if (typeof window === "undefined") {
-    console.log("1. SZERVER: komponens renderelése, HTML generálása");
-  } else {
-    console.log("4a. KLIENS: komponens újra-renderelése hidratáció közben");
-  }
-
   return (
     <button
       className={`bg-${color} text-ink px-5 ${height ?? "py-2.5"} ${border}
