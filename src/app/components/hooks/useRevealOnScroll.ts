@@ -24,7 +24,7 @@ export function useRevealOnScroll<T extends HTMLElement>() {
       },
       {
         threshold: 0.17,
-        rootMargin: "0px 0px -40px 0px",
+        rootMargin: "0px 40px 40px 0px",
       },
     );
 

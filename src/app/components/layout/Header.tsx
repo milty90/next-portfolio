@@ -13,6 +13,26 @@ const links = [
 export default function Header() {
   const [open, setOpen] = useState(false);
 
+  const handleNavClick = (
+    event: React.MouseEvent<HTMLAnchorElement>,
+    id: string,
+  ) => {
+    event.preventDefault();
+
+    const target = document.getElementById(id);
+
+    if (target) {
+      target.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+
+      window.history.pushState(null, "", `#${id}`);
+    }
+
+    setOpen(false);
+  };
+
   return (
     <header className="sticky top-0 z-50 bg-bg-alt/20 backdrop-blur-md border-b border-line">
       <nav className="flex flex-row items-center font-bold justify-between px-7 p-4 max-w-(--maxw) mx-auto">
@@ -28,17 +48,21 @@ export default function Header() {
             open ? "flex" : "hidden"
           } md:bg-transparent md:pl-0 md:py-0 md:relative md:top-0 md:flex md:flex-row md:w-auto md:gap-7.5 md:justify-end`}
         >
-          {links.map((l) => (
-            <li key={l.href}>
-              <Link
-                href={l.href}
-                className="text-ink/85 text-[0.9rem] gap-4 tracking-wide font-normal relative text-ink-soft hover:text-blue transition-colors duration-300 hover:text-blue-soft transition-colors duration-300"
-                onClick={() => setOpen(false)}
-              >
-                {l.label}
-              </Link>
-            </li>
-          ))}
+          {links.map((l) => {
+            const id = l.href.replace("#", "");
+
+            return (
+              <li key={l.href}>
+                <Link
+                  href={l.href}
+                  className="text-ink/85 text-[0.9rem] gap-4 tracking-wide font-normal relative text-ink-soft hover:text-blue transition-colors duration-300 hover:text-blue-soft transition-colors duration-300"
+                  onClick={(e) => handleNavClick(e, id)}
+                >
+                  {l.label}
+                </Link>
+              </li>
+            );
+          })}
         </ul>
 
         <button className="md:hidden" onClick={() => setOpen((prev) => !prev)}>
@@ -46,16 +70,9 @@ export default function Header() {
         </button>
 
         <div className="hidden md:block">
-          <ColorButton
-            color="transparent"
-            text="CV anfordern"
-            onClick={() => {
-              const link = document.createElement("a");
-              link.href = "/Milan_Tyopity_CV.pdf";
-              link.download = "Milan_Tyopity_CV.pdf";
-              link.click();
-            }}
-          />
+          <Link href="/requestcv">
+            <ColorButton color="transparent" text="CV anfordern" />
+          </Link>
         </div>
       </nav>
     </header>
