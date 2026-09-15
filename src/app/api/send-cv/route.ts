@@ -29,34 +29,37 @@ export async function POST(req: NextRequest) {
         border-radius: 12px;
         border: 1px solid rgba(245, 242, 236, 0.1);
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-     ">
-       <h2 style="
+      ">
+
+      <h2 style="
        color: #ddaa80;
        font-size: 24px;
        margin-top: 0;
        margin-bottom: 16px;
-      letter-spacing: -0.5px;
-    ">Hallo!</h2>
+       letter-spacing: -0.5px;
+       ">Hallo!
+      </h2>
+
+      <p style="
+       color: #a6a2a0;
+       font-size: 15px;
+       line-height: 1.6;
+       margin-bottom: 24px;
+      ">
+      Vielen Dank für dein Interesse. Im Anhang findest du meinen Lebenslauf.
+      </p>
+
+     <div style="
+       border-top: 1px solid rgba(245, 242, 236, 0.1);
+       padding-top: 16px;
+    ">
 
      <p style="
-      color: #a6a2a0;
-      font-size: 15px;
-      line-height: 1.6;
-      margin-bottom: 24px;
-    ">
-      Vielen Dank für dein Interesse. Im Anhang findest du meinen Lebenslauf.
-    </p>
-
-    <div style="
-     border-top: 1px solid rgba(245, 242, 236, 0.1);
-     padding-top: 16px;
-    ">
-    <p style="
       color: #f5f2ec;
       font-size: 14px;
       line-height: 1.5;
       margin: 0;
-    ">
+     ">
       Beste Grüße,<br/>
        <strong style="color: #6e8dc4; font-weight: 600;">Milan Tyopity</strong>
       </p>

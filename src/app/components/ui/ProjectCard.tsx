@@ -39,7 +39,7 @@ export default function ProjectCard({
             {title}
           </h3>
 
-          <p className="text-ink-soft text-[0.95rem] max-w-[45ch] mb-2">
+          <p className="text-ink-soft text-[0.95rem] max-w-[22.5rem] mb-2">
             {desc}
           </p>
           <div className="flex gap-1.5 text-[0.75rem] text-ink-soft font-mono flex-wrap">

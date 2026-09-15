@@ -18,6 +18,7 @@ export async function getProjectsData() {
 
     return data;
   } catch (error) {
+    console.error("First API failed:", error);
     try {
       const fallbackResponse = await fetch(secondUrl);
 

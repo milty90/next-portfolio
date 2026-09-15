@@ -1,8 +1,8 @@
 "use client";
-import { useRevealOnScroll } from "../hooks/useRevealOnScroll";
+import useOnScroll from "../hooks/useOnScroll";
 
 export default function About() {
-  const ref = useRevealOnScroll<HTMLDivElement>();
+  const ref = useOnScroll<HTMLDivElement>();
   return (
     <section
       ref={ref}
@@ -10,7 +10,7 @@ export default function About() {
       className="overflow-hidden py-15 opacity-0 translate-y-7.5 transition-all duration-700 data-[revealed=true]:opacity-100 data-[revealed=true]:translate-y-0"
     >
       <div className="grid grid-cols-1 px-7 md:grid-cols-2 gap-10 max-w-(--maxw) mx-auto items-start">
-        <div className="max-w-[52ch]">
+        <div className="max-w-[26rem]">
           <p className="text-ink font-semibold font-space text-2xl/normal mb-6">
             Ich glaube, guter Code sollte nicht nur{" "}
             <span className="hl text-copper">funktionieren</span> , er sollte

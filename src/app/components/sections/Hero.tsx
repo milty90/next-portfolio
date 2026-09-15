@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
 import ColorButton from "../ui/ColorButton";
-import { useRevealOnScroll } from "../hooks/useRevealOnScroll";
+import useOnScroll from "../hooks/useOnScroll";
 
 export default function Hero() {
-  const ref = useRevealOnScroll<HTMLDivElement>();
+  const ref = useOnScroll<HTMLDivElement>();
   return (
     <section
       ref={ref}
@@ -20,7 +20,7 @@ export default function Hero() {
             <br />
             keine <span className="italic text-copper">Ausreden.</span>
           </h1>
-          <p className="text-ink-soft text-[1.1rem]/[1.6] mt-6.5 mb-8.5 max-w-[44ch]">
+          <p className="text-ink-soft text-[1.1rem]/[1.6] mt-6.5 mb-8.5 max-w-[22rem]">
             Ich bringe Design mit sauberem Code zum Leben. Schauen Sie sich
             meine aktuellsten Projekte unten an!
           </p>

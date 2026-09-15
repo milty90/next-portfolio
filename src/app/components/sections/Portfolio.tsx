@@ -1,5 +1,5 @@
 "use client";
-import { useRevealOnScroll } from "../hooks/useRevealOnScroll";
+import useOnScroll from "../hooks/useOnScroll";
 import ProjectCard from "../ui/ProjectCard";
 import { useEffect, useState } from "react";
 import { projects } from "../../data/projects";
@@ -7,7 +7,7 @@ import type { Project } from "../../types";
 import { getProjectsData } from "@/app/utils/getProjectsData";
 
 export default function Portfolio() {
-  const ref = useRevealOnScroll<HTMLDivElement>();
+  const ref = useOnScroll<HTMLDivElement>();
   const [projectsData, setProjectsData] = useState<Project[]>([]);
 
   useEffect(() => {

@@ -1,8 +1,8 @@
 "use client";
-import { useRevealOnScroll } from "../hooks/useRevealOnScroll";
+import useOnScroll from "../hooks/useOnScroll";
 
 export default function Stack() {
-  const ref = useRevealOnScroll<HTMLDivElement>();
+  const ref = useOnScroll<HTMLDivElement>();
   return (
     <section
       ref={ref}

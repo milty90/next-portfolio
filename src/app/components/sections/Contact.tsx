@@ -1,9 +1,9 @@
 "use client";
-import { useRevealOnScroll } from "../hooks/useRevealOnScroll";
+import useOnScroll from "../hooks/useOnScroll";
 import ColorButton from "../ui/ColorButton";
 
 export default function Contact() {
-  const ref = useRevealOnScroll<HTMLDivElement>();
+  const ref = useOnScroll<HTMLDivElement>();
   return (
     <section
       ref={ref}
@@ -19,7 +19,7 @@ export default function Contact() {
             <h2 className="text-[2rem] md:text-[2.6rem] font-bold w-[15ch]">
               Lust, gemeinsam etwas zu bauen?
             </h2>
-            <p className="text-ink-soft my-5.5  text-[0.95rem] max-w-[52ch]">
+            <p className="text-ink-soft my-5.5  text-[0.95rem] max-w-[26rem]">
               Aktuell bin ich für neue Projekte oder Vollzeit Herausforderungen
               verfügbar. Kontaktieren Sie mich gerne!
             </p>
@@ -33,8 +33,8 @@ export default function Contact() {
               }}
             />
           </div>
-          <div className=" border font-monospace mt-8 border-none  rounded-2xl overflow-hidden w-full md:w-[52ch]">
-            <div className="flex items-center font-monospace text-sm gap-2.5 px-4 py-3 text-ink-faint w-[45ch] border-b border-line">
+          <div className=" border font-monospace mt-8 border-none  rounded-2xl overflow-hidden w-full md:w-[26rem]">
+            <div className="flex items-center font-monospace text-sm gap-2.5 px-4 py-3 text-ink-faint w-[23rem] border-b border-line">
               <span className="bg-blue ml-2 w-2 h-2 rounded-full"></span>
               contact.json
             </div>
