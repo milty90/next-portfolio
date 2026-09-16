@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
-import fs from "fs";
-import path from "path";
+import { getStore } from "@netlify/blobs";
+
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: NextRequest) {
@@ -12,8 +12,9 @@ export async function POST(req: NextRequest) {
   }
 
   try {
-    const cvPath = path.join(process.cwd(), "assets", "cv.pdf");
-    const cvBase64 = fs.readFileSync(cvPath).toString("base64");
+    const store = getStore("cv-storage");
+    const cvBuffer = await store.get("cv.pdf", { type: "arrayBuffer" });
+    const cvBase64 = Buffer.from(cvBuffer).toString("base64");
 
     await resend.emails.send({
       from: "Milan Tyopity <hallo@milantyopity.com>",
