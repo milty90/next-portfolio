@@ -46,7 +46,7 @@ export default function Header() {
         <ul
           className={`absolute top-15.5 left-0 bg-bg-alt/95 w-full pl-10 py-5 flex-col justify-center gap-7.5 ${
             open ? "flex" : "hidden"
-          } md:bg-transparent md:pl-0 md:py-0 md:relative md:top-0 md:flex md:flex-row md:w-auto md:gap-7.5 md:justify-end`}
+          } md:bg-transparent  md:py-0 md:relative md:top-0 md:flex md:flex-row md:justify-center md:gap-7.5`}
         >
           {links.map((l) => {
             const id = l.href.replace("#", "");
@@ -64,10 +64,20 @@ export default function Header() {
             );
           })}
         </ul>
+        <div className="flex flex-row items-center gap-4">
+          <div className="block md:hidden">
+            <Link href="/requestcv">
+              <ColorButton color="transparent" text="CV" />
+            </Link>
+          </div>
 
-        <button className="md:hidden" onClick={() => setOpen((prev) => !prev)}>
-          <Image src="menu.svg" alt="Menu" width={24} height={24} />
-        </button>
+          <button
+            className="md:hidden"
+            onClick={() => setOpen((prev) => !prev)}
+          >
+            <Image src="menu.svg" alt="Menu" width={24} height={24} />
+          </button>
+        </div>
 
         <div className="hidden md:block">
           <Link href="/requestcv">

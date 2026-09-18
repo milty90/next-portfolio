@@ -11,7 +11,7 @@ export default function Contact() {
       className="overflow-hidden py-10 md:py-20 opacity-0 translate-y-7.5 transition-all duration-700 data-[revealed=true]:opacity-100 data-[revealed=true]:translate-y-0"
     >
       <div className="flex flex-col px-7 gap-10 max-w-(--maxw) mx-auto">
-        <div className="text-ink flex flex-col md:flex-row gap-10 lg:gap-40 justify-between">
+        <div className="text-ink flex flex-col md:flex-row gap-4 lg:gap-40 justify-between">
           <div>
             <p className="text-blue font-mono pl-2 mb-2 tracking-wide">
               {"// kontakt"}
@@ -38,7 +38,7 @@ export default function Contact() {
               <span className="bg-blue ml-2 w-2 h-2 rounded-full"></span>
               contact.json
             </div>
-            <div className="font-monospace text-xs md:text-[0.9rem]  md:ml-2 text-ink-faint px-4 pt-4 md:px-7 md:pt-7">
+            <div className="font-monospace text-xs md:text-[0.8rem] lg:text-[0.9rem]  md:ml-2 text-ink-faint  pt-4 md:px-0 md:pt-7 lg:px-7">
               <p>{"{"}</p>
               <p className="ln">
                 &nbsp;&nbsp;

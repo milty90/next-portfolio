@@ -13,12 +13,17 @@ export default function Hero() {
     >
       <div className="grid grid-cols-1 px-7 md:grid-cols-2 gap-8 lg:gap-10 max-w-(--maxw) mx-auto items-center">
         <div>
-          <h1 className="text-ink text-[55px] md:text-[85px] font-bold tracking-tight leading-[0.98] mt-2">
-            Ich baue
-            <br />
-            Interfaces,
-            <br />
-            keine <span className="italic text-copper">Ausreden.</span>
+          <h1 className="text-ink text-[55px] md:text-[85px] tracking-tight leading-[0.98] mt-2">
+            <span className="font-light">
+              Ich baue
+              <br />
+              Interfaces,
+              <br />
+              keine{" "}
+              <span className="italic font-semibold text-copper">
+                Ausreden.
+              </span>
+            </span>
           </h1>
           <p className="text-ink-soft text-[1.1rem]/[1.6] mt-6.5 mb-8.5 max-w-[22rem]">
             Ich bringe Design mit sauberem Code zum Leben. Schauen Sie sich
@@ -60,7 +65,7 @@ export default function Hero() {
               loading="eager"
               width={1024}
               height={731}
-              className="w-full object-cover aspect-3/4 md:aspect-2/4 lg:aspect-3/4 object-[44%_25%] filter contrast-[1.04] saturate-[1.05]"
+              className="w-full object-cover aspect-2/1 md:aspect-2/4 lg:aspect-3/4 object-[44%_25%] filter contrast-[1.04] saturate-[1.05]"
             />
           </div>
         </div>

@@ -19,10 +19,17 @@ export function Impressum() {
               </button>
             </Link>
           </div>
+          <div className="block md:hidden">
+            <Link href="/" passHref>
+              <button className="bg-transparent font-monospace flex items-center gap-1.5 text-[0.82rem] font-light text-ink-soft hover:text-ink pl-5 py-2.5">
+                ← Zurück
+              </button>
+            </Link>
+          </div>
         </nav>
       </header>
       <section className="flex flex-1 overflow-hidden pt-5 md:py-15 transition-all duration-700">
-        <div className="flex flex-col px-5 text-ink-soft text-[0.96rem] mb-0 max-w-180 mx-auto">
+        <div className="flex flex-col px-5 text-ink-soft text-[0.96rem] mb-0 md:max-w-180 mx-auto">
           <p className="text-blue font-mono pl-2 mb-3.5 tracking-wide">
             {"// impressum"}
           </p>
@@ -55,15 +62,15 @@ export function Impressum() {
             </a>
           </p>
 
-          <p className="text-ink text-[0.95rem] mt-9 mb-2 md:pr-25 tracking-widest">
+          <p className="text-ink text-[0.95rem] mt-9 mb-2 md:pr-25 sm:text-wrap w-fit tracking-widest">
             Verbraucherstreitbeilegung / Universalschlichtungsstelle: <br />
             Wir sind nicht bereit oder verpflichtet, an
             Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle
             teilzunehmen.
           </p>
-          <div className="mt-auto">
-            <div className="border-t border-line w-160 mt-14 mb-3.5"></div>
-            <p className="text-ink-soft/60 text-[0.78rem] font-mono tracking-wide">
+          <div className="mt-auto ">
+            <div className="border-t border-line md:w-160 mt-14 mb-3.5"></div>
+            <p className="text-ink-soft/60 text-[0.78rem] mb-4 font-mono tracking-wide">
               © 2026 Milan Tyopity. gebaut mit Vite, Tailwind &amp; TS
             </p>
           </div>

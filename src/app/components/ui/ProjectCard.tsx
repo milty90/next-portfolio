@@ -19,7 +19,7 @@ export default function ProjectCard({
   live,
 }: ProjectCardProps) {
   return (
-    <div className={`flex flex-col overflow-hidden max-h-150 rounded ${size}`}>
+    <div className={`flex flex-col overflow-hidden rounded ${size}`}>
       <div className={` relative overflow-hidden rounded-t-3xl ${size}`}>
         <div className="absolute inset-0 bg-bg/10"></div>
         <Image
