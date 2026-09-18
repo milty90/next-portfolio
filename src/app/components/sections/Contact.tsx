@@ -10,7 +10,7 @@ export default function Contact() {
       id="contact"
       className="overflow-hidden py-10 md:py-20 opacity-0 translate-y-7.5 transition-all duration-700 data-[revealed=true]:opacity-100 data-[revealed=true]:translate-y-0"
     >
-      <div className="flex flex-col px-7 gap-10 max-w-(--maxw) mx-auto">
+      <div className="flex flex-col px-7 md:gap-10 max-w-(--maxw) mx-auto">
         <div className="text-ink flex flex-col md:flex-row gap-4 lg:gap-40 justify-between">
           <div>
             <p className="text-blue font-mono pl-2 mb-2 tracking-wide">
