@@ -65,7 +65,7 @@ export default function Hero() {
               loading="eager"
               width={1024}
               height={731}
-              className="w-full object-cover aspect-2/1 md:aspect-2/4 lg:aspect-3/4 object-[44%_25%] filter contrast-[1.04] saturate-[1.05]"
+              className="w-full object-cover aspect-2/1 md:aspect-2/3.5 md:h-[502px] lg:aspect-3/4 object-[44%_25%] filter contrast-[1.04] saturate-[1.05]"
             />
           </div>
         </div>
