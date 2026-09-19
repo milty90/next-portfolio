@@ -44,7 +44,7 @@ export default function Header() {
         </Link>
 
         <ul
-          className={`absolute top-15.5 left-0 bg-bg-alt/95 w-full pl-10 py-5 flex-col justify-center gap-7.5 ${
+          className={`absolute top-15.5 left-0  bg-bg-alt/95 w-dvw px-10 py-5 flex-col justify-center gap-7.5 ${
             open ? "flex" : "hidden"
           } md:bg-transparent  md:py-0 md:relative md:top-0 md:flex md:flex-row md:justify-center md:gap-7.5`}
         >

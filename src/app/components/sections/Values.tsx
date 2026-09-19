@@ -22,7 +22,9 @@ export default function Values() {
           <div className="grid md:grid-flow-col items-center justify-between  gap-4 py-10 ">
             <div className="grid md:grid-flow-col items-center justify-between gap-2 md:gap-20">
               <span className=" text-blue-soft font-mono max-w-[2rem]">01</span>
-              <h3 className="text-ink font-bold text-lg">Sauberer Code</h3>
+              <h3 className="text-ink font-bold md:w-[10rem] text-lg">
+                Sauberer Code
+              </h3>
             </div>
             <p className="text-ink-soft text-[0.95rem] max-w-[26rem] mr-0 md:mr-20  ">
               Strukturierter, gut lesbarer Code steht bei mir an erster Stelle
@@ -32,7 +34,9 @@ export default function Values() {
           <div className="grid md:grid-flow-col justify-between items-center  gap-4 py-10 ">
             <div className="grid md:grid-flow-col items-center justify-between gap-2 md:gap-20">
               <span className=" text-blue-soft font-mono max-w-[2rem]">02</span>
-              <h3 className="text-ink font-bold text-lg">Schnelles Lernen</h3>
+              <h3 className="text-ink font-bold md:w-[10rem] text-lg">
+                Schnelles Lernen
+              </h3>
             </div>
             <p className="text-ink-soft text-[0.95rem] max-w-[26rem] mr-0 md:mr-20">
               Neue Technologien lerne ich zügig und wende sie sofort in realen
@@ -42,7 +46,9 @@ export default function Values() {
           <div className="grid md:grid-flow-col justify-between  md:items-center gap-4 py-10 ">
             <div className="grid md:grid-flow-col items-center justify-between gap-2 md:gap-20">
               <span className=" text-blue-soft font-mono max-w-[2rem]">03</span>
-              <h3 className="text-ink font-bold text-lg">Blick fürs Detail</h3>
+              <h3 className="text-ink font-bold md:w-[10rem] text-lg">
+                Blick fürs Detail
+              </h3>
             </div>
             <p className="text-ink-soft text-[0.95rem] max-w-[26rem] mr-0 md:mr-20">
               Kleine Animationen, sauberes Spacing, durchdachte Zustände gutes

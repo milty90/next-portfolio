@@ -81,10 +81,10 @@ export default function Contact() {
               <p className="ln">{"}"}</p>
             </div>
             <div
-              className={` px-4 pt-3.5 md:pb-0 flex items-center justify-end `}
+              className={` md:px-4 pt-3.5 pb-0 flex items-center justify-end `}
             >
               <button
-                className="bg-transparent flex items-center mb-3 gap-2 text-ink px-5 py-2.5 font-semibold text-[0.86rem] rounded-4xl whitespace-nowrap  hover:bg-ink hover:text-bg transition-color duration-400 "
+                className="bg-transparent flex items-center md:mb-3 gap-2 text-ink px-5 py-2.5 font-semibold text-[0.86rem] rounded-4xl whitespace-nowrap  hover:bg-ink hover:text-bg transition-color duration-400 "
                 onClick={() => {
                   window.open("https://github.com/milty90", "_blank");
                 }}
