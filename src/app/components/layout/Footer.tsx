@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer>
       <div>
-        <div className="flex flex-col md:flex-row items-start  md:items-center  justify-between gap-4 px-7 py-7 max-w-(--maxw) mx-auto text-[0.86rem] text-ink-faint">
+        <div className="flex flex-col md:flex-row  items-center  justify-between gap-4 px-7 py-7 max-w-(--maxw) mx-auto text-[0.86rem] text-ink-faint">
           <span className="font-mono text-ink-soft text-[0.74rem]  md:text-[0.86rem]">
             © 2026 Milan Tyopity. gebaut mit Next.js, Tailwind &amp; TS
           </span>

@@ -19,7 +19,7 @@ export default function About() {
         </div>
         <div className="font-monospace text-ink-faint text-[1rem] md:text-[1rem]">
           <div className=" text-ink/90 md:text-lg/[1.5]">
-            <p className="mb-4">
+            <p className="mb-4 line-clamp-4">
               Aktuell mache ich die Frontend-Weiterbildung bei DevKarriere und
               setze das Gelernte gleich in eigenen Projekten um.
             </p>

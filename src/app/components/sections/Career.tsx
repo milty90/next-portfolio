@@ -41,7 +41,7 @@ export default function Career() {
               <span className="font-mono text-[0.85rem] text-ink-faint mb-2">
                 Hekatron Manufacturing GmbH
               </span>
-              <p className="text-ink-soft text-[0.95rem] mt-5 max-w-[26rem]">
+              <p className="text-ink-soft text-[0.95rem] leading-6 mt-5 max-w-[26rem]">
                 Eigenverantwortliche Programmierung und Betreuung von
                 AOI-Prüfsystemen im THT-Bereich mit Fokus auf präziser
                 Qualitätskontrolle, Minimierung von Pseudofehlern und

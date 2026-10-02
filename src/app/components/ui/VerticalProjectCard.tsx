@@ -22,11 +22,11 @@ export default function ProjectCard({
   console.log(isLeft);
   return (
     <div
-      className={`flex flex-col justify-between items-center overflow-hidden ${isLeft % 2 === 0 ? "md:flex-row-reverse" : "md:flex-row"}  md:gap-20`}
+      className={`flex flex-col w-3/4 md:w-full justify-center items-start md:items-center  overflow-hidden ${isLeft % 2 === 0 ? "md:flex-row-reverse" : "md:flex-row"}  md:gap-20`}
     >
       <div>
         <Image
-          className={`object-cover rounded-xl ${isLeft % 2 === 0 ? "md:mr-4" : "md:ml-1"} `}
+          className={`object-cover mb-4 rounded-xl ${isLeft % 2 === 0 ? "md:mr-4" : "md:mb-0 md:ml-1"} `}
           width={350}
           height={280}
           src={img}
@@ -49,7 +49,7 @@ export default function ProjectCard({
               </span>
             ))}
           </div>
-          <p className="text-ink-soft text-[0.93rem] max-w-[28rem] mb-2">
+          <p className="text-ink-soft text-[0.93rem] leading-6 md:line-clamp-3 max-w-[28rem] mb-2">
             {desc}
           </p>
 

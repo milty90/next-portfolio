@@ -32,7 +32,7 @@ export default function Portfolio() {
           <div className="text-ink-soft max-w-[25rem] -ml-2 mb-15 border-b-2 border-blue/70"></div>
         </div>
         <div
-          className="grid grid-cols-1 md:grid-cols-1 gap-40 md:gap-22 py-6 opacity-100 md:opacity-0 md:translate-y-7.5 transition-all duration-700 data-[revealed=true]:opacity-100 data-[revealed=true]:translate-y-0"
+          className="flex flex-col justify-center items-center gap-40 md:gap-22 py-6 opacity-100 md:opacity-0 md:translate-y-7.5 transition-all duration-700 data-[revealed=true]:opacity-100 data-[revealed=true]:translate-y-0"
           ref={ref}
         >
           {projectsData
