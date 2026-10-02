@@ -11,9 +11,6 @@ export default function Values() {
     >
       <div className="wrap px-7 max-w-(--maxw) mx-auto">
         <div className="text-ink mb-10 md:mb-15 reveal">
-          <p className="text-blue font-mono pl-2 mb-2 tracking-wide">
-            {"// warum ich"}
-          </p>
           <h2 className="text-[2rem] md:text-[2.6rem] font-bold">
             Warum mit mir arbeiten
           </h2>

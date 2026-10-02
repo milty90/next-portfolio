@@ -9,25 +9,24 @@ export default function Hero() {
     <section
       ref={ref}
       id="hero"
-      className="overflow-hidden pt-5 pb-2 md:py-25 opacity-0 translate-y-7.5 transition-all duration-700 data-[revealed=true]:opacity-100 data-[revealed=true]:translate-y-0"
+      className="overflow-hidden pt-5 pb-2 md:py-21 opacity-0 translate-y-7.5 transition-all duration-700 data-[revealed=true]:opacity-100 data-[revealed=true]:translate-y-0"
     >
-      <div className="grid grid-cols-1 px-7 md:grid-cols-2 gap-8 lg:gap-10 max-w-(--maxw) mx-auto items-center">
-        <div>
-          <h1 className="text-ink text-[55px] md:text-[85px] tracking-tight leading-[0.98] mt-2">
+      <div className="grid grid-cols-1 px-7 md:grid-cols-2 gap-10 max-w-(--maxw) mx-auto items-start">
+        <div className="flex flex-col items-center md:items-start">
+          <h1 className="text-ink text-center md:text-left text-[65px] -ml-1 md:text-[75px] lg:text-[85px] tracking-tight leading-[0.98]">
             <span className="font-light">
-              Ich baue
+              Ihr neuer
               <br />
-              Interfaces,
+              Frontend
               <br />
-              keine{" "}
-              <span className="italic font-semibold text-copper">
-                Ausreden.
+              <span className="font-inter font-medium text-copper">
+                Developer
               </span>
             </span>
           </h1>
-          <p className="text-ink-soft text-[1.1rem]/[1.6] mt-6.5 mb-8.5 max-w-[22rem]">
-            Ich bringe Design mit sauberem Code zum Leben. Schauen Sie sich
-            meine aktuellsten Projekte unten an!
+          <p className="text-ink/80 text-center md:text-left text-[1.1rem]/[1.6] mt-6.5 mb-8.5 max-w-[22rem]">
+            Hallo! Ich bin Milan, Softwareentwickler mit Schwerpunkt Web
+            Development.
           </p>
           <div className="flex flex-row gap-3.5">
             <ColorButton
@@ -56,16 +55,15 @@ export default function Hero() {
             />
           </div>
         </div>
-        <div className="relative flex justify-center pb-0">
-          <div className="absolute w-[80%] h-[98%] top-[2%] right-[2%] z-0 bg-[radial-gradient(circle_at_70%_25%,var(--color-copper)_0%,rgba(198,139,87,0)_42%),radial-gradient(circle_at_25%_80%,var(--color-blue)_0%,rgba(61,90,138,0)_50%)] blur-[38px] opacity-55"></div>
-          <div className="relative sm:w-3/4 z-1 md:w-3/4 md:ml-auto rounded-3xl bg-panel outline-2 outline-offset-3 outline-line overflow-hidden ">
+        <div className="relative flex flex-col lg:my-6 items-center justify-center ">
+          <div className="relative size-[260px]  md:mx-auto md:w-[260px] md:h-auto lg:mx-0 lg:size-auto lg:ml-auto rounded-full  bg-transparent outline-5 outline-offset-5 outline-blue/50 overflow-hidden ">
             <Image
-              src="/me.jpg"
+              src="/4K_me.png"
               alt="Porträt von Milan"
               loading="eager"
               width={1024}
               height={731}
-              className="w-full object-cover h-[260px] aspect-2/1 md:aspect-2/3.5 md:h-[502px] lg:aspect-3/4 object-[44%_25%] filter contrast-[1.04] saturate-[1.05]"
+              className=" md:max-w-sm bg-line/10  object-cover aspect-square object-[40%_0%] md:object-[79%_25%] lg:object-[44%_25%]"
             />
           </div>
         </div>

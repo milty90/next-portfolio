@@ -11,9 +11,6 @@ export default function Career() {
     >
       <div className="flex flex-col px-7 gap-10 max-w-(--maxw) mx-auto">
         <div className=" text-ink">
-          <p className="text-blue font-mono pl-2 mb-2 tracking-wide">
-            {"// timeline"}
-          </p>
           <h2 className="text-[2rem] md:text-[2.6rem] font-bold">Werdegang</h2>
           <p className="text-ink-soft mt-2.5 text-[0.95rem] ">
             Ein kurzer Überblick
