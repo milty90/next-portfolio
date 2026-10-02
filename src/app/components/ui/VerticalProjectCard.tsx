@@ -22,11 +22,11 @@ export default function ProjectCard({
   console.log(isLeft);
   return (
     <div
-      className={`flex flex-col w-3/4 md:w-full justify-center items-start md:items-center  overflow-hidden ${isLeft % 2 === 0 ? "md:flex-row-reverse" : "md:flex-row"}  md:gap-20`}
+      className={`flex flex-col px-6 pt-4 pb-5 shadow-sm bg-panel/30 border border-panel rounded-xl justify-between items-center overflow-hidden ${isLeft % 2 === 0 ? "md:flex-row-reverse" : "md:flex-row"}  md:gap-30`}
     >
       <div>
         <Image
-          className={`object-cover mb-4 rounded-xl ${isLeft % 2 === 0 ? "md:mr-4" : "md:mb-0 md:ml-1"} `}
+          className="mb-4 rounded-lg"
           width={350}
           height={280}
           src={img}
@@ -34,22 +34,22 @@ export default function ProjectCard({
           loading="eager"
         />
       </div>
-      <div className={`overflow-hidden from-gray-800 from-50% `}>
-        <div className="  flex flex-col gap-2">
-          <h3 className="text-[1.5rem] ml-2 text-ink font-bold tracking-tight my-3">
+      <div>
+        <div className=" flex flex-col gap-2">
+          <h3 className="text-[1.5rem] ml-2 text-ink font-bold tracking-tight mb-3">
             {title}
           </h3>
-          <div className="flex gap-1.5 text-[0.75rem] text-ink-soft mb-3 font-mono flex-wrap">
+          <div className="flex flex-wrap max-w-[26rem] gap-1.5 text-[0.75rem] text-ink-soft mb-3 font-mono ">
             {tags.map((t) => (
               <span
-                className="text-[0.75rem] bg-blue/20 rounded-2xl text-ink px-3 py-1 "
+                className="text-[0.75rem] bg-blue/20 rounded-2xl text-ink px-3 py-1  "
                 key={t}
               >
                 {t}
               </span>
             ))}
           </div>
-          <p className="text-ink-soft text-[0.93rem] leading-6 md:line-clamp-3 max-w-[28rem] mb-2">
+          <p className="text-ink-soft text-[0.93rem] max-w-[28rem] leading-6 mb-2">
             {desc}
           </p>
 

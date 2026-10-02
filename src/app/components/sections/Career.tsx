@@ -9,14 +9,14 @@ export default function Career() {
       className="overflow-hidden py-10 md:py-20 opacity-0 translate-y-7.5 transition-all duration-700 data-[revealed=true]:opacity-100 data-[revealed=true]:translate-y-0"
       ref={ref}
     >
-      <div className="flex flex-col px-7 gap-10 max-w-(--maxw) mx-auto">
-        <div className=" text-ink">
+      <div className="flex flex-col items-center justify-between px-7 md:items-start  gap-10 max-w-(--maxw) mx-auto">
+        <div className="flex flex-col items-start max-w-[26rem] text-ink">
           <h2 className="text-[2rem] md:text-[2.6rem] font-bold">Werdegang</h2>
           <p className="text-ink-soft mt-2.5 text-[0.95rem] ">
             Ein kurzer Überblick
           </p>
         </div>
-        <div className="flex flex-col divide-y divide-line text-ink">
+        <div className="flex flex-col divide-y  md:px-0 divide-line text-ink">
           <div className="flex flex-col md:flex-row md:items-center  border-line gap-2 md:gap-6 py-8 ">
             <p className="md:w-35 text-blue-soft font-mono ">2025 — heute</p>
             <div>

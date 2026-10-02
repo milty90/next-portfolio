@@ -13,7 +13,7 @@ export default function Hero() {
     >
       <div className="grid grid-cols-1 px-7 md:grid-cols-2 gap-10 max-w-(--maxw) mx-auto items-start">
         <div className="flex flex-col items-center md:items-start">
-          <h1 className="text-ink text-center md:text-left text-[65px] -ml-1 md:text-[75px] lg:text-[85px] tracking-tight leading-[0.98]">
+          <h1 className="text-ink text-center md:text-left text-[70px] -ml-1 md:text-[75px] lg:text-[85px] tracking-tight leading-[0.98]">
             <span className="font-light">
               Ihr neuer
               <br />
@@ -55,8 +55,8 @@ export default function Hero() {
             />
           </div>
         </div>
-        <div className="relative flex flex-col lg:my-6 items-center justify-center ">
-          <div className="relative size-[260px]  md:mx-auto md:w-[260px] md:h-auto lg:mx-0 lg:size-auto lg:ml-auto rounded-full  bg-transparent outline-5 outline-offset-5 outline-blue/50 overflow-hidden ">
+        <div className="relative flex flex-col my-6 items-center justify-center">
+          <div className="relative size-[260px]  md:mx-auto md:w-[260px] md:h-auto lg:mx-0 lg:size-auto lg:ml-auto rounded-full  bg-transparent outline-5 outline-offset-5 outline-panel-2 overflow-hidden ">
             <Image
               src="/4K_me.png"
               alt="Porträt von Milan"

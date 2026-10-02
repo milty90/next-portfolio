@@ -10,8 +10,8 @@ export default function Contact() {
       id="contact"
       className="overflow-hidden py-10 md:py-15 opacity-0 translate-y-7.5 transition-all duration-700 data-[revealed=true]:opacity-100 data-[revealed=true]:translate-y-0"
     >
-      <div className="flex flex-col px-7 md:mb-8 md:gap-10 max-w-(--maxw) mx-auto">
-        <div className="text-ink flex flex-col md:flex-row md:gap-4 lg:gap-40 justify-between">
+      <div className="flex flex-col w-3/4 md:w-full md:items-start justify-between md:px-7 md:mb-8 md:gap-10 max-w-(--maxw) mx-auto">
+        <div className="text-ink flex flex-col md:px-0 md:flex-row md:gap-4 lg:gap-40 justify-between">
           <div>
             <p className="text-blue font-mono mb-2 tracking-wide">
               {"Kontakt"}
@@ -32,7 +32,7 @@ export default function Contact() {
             />
           </div>
           <div className="font-monospace mt-8 border-none overflow-hidden w-full md:w-[26rem]">
-            <div className="font-inter md:text-[1rem] text-ink-faint  md:pt-4 md:px-0 md:pt-7">
+            <div className="font-inter md:text-[1rem]  text-ink-faint  md:pt-4 md:px-0 md:pt-7">
               <p>
                 <span className="text-ink-soft leading-6">{"name"}</span>:
                 <span className="text-ink/80  ml-3.5 font-inter">
