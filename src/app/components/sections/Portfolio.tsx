@@ -29,10 +29,10 @@ export default function Portfolio() {
           <h2 className="text-[2rem] mb-1 md:text-[2.6rem] font-bold ">
             Meine Projekte
           </h2>
-          <div className="w-[25rem] mb-15 border-b-2 border-blue/70" />
+          <div className="w-[25rem] mb-10 border-b-2 border-blue/70" />
         </div>
         <div
-          className="flex flex-col justify-center md:justify-between gap-22 py-6 opacity-100 md:opacity-0 md:translate-y-7.5 transition-all duration-700 data-[revealed=true]:opacity-100 data-[revealed=true]:translate-y-0"
+          className="flex flex-col justify-center md:justify-between gap-20 py-6 opacity-100 md:opacity-0 md:translate-y-7.5 transition-all duration-700 data-[revealed=true]:opacity-100 data-[revealed=true]:translate-y-0"
           ref={ref}
         >
           {projectsData

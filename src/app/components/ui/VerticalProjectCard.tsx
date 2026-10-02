@@ -22,7 +22,7 @@ export default function ProjectCard({
   console.log(isLeft);
   return (
     <div
-      className={`flex flex-col px-6 pt-4 pb-5 shadow-sm bg-panel/30 border border-panel rounded-xl justify-between items-center overflow-hidden ${isLeft % 2 === 0 ? "md:flex-row-reverse" : "md:flex-row"}  md:gap-30`}
+      className={`flex flex-col p-6 shadow-sm bg-panel/80 border border-line/30 rounded-3xl justify-between items-center overflow-hidden ${isLeft % 2 === 0 ? "md:flex-row-reverse" : "md:flex-row"}  md:gap-30`}
     >
       <div>
         <Image

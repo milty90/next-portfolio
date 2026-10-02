@@ -31,7 +31,7 @@ export default function Contact() {
               }}
             />
           </div>
-          <div className="font-monospace mt-8 border-none overflow-hidden w-full md:w-[26rem]">
+          {/*  <div className="font-monospace mt-8 border-none overflow-hidden w-full md:w-[26rem]">
             <div className="font-inter md:text-[1rem]  text-ink-faint  md:pt-4 md:px-0 md:pt-7">
               <p>
                 <span className="text-ink-soft leading-6">{"name"}</span>:
@@ -63,7 +63,7 @@ export default function Contact() {
                 ,
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
