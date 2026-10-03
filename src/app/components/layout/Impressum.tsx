@@ -4,11 +4,11 @@ export function Impressum() {
   return (
     <div
       id="impressum"
-      className="overflow-hidden min-h-dvh flex flex-col transition-all duration-700"
+      className="overflow-hidden min-h-dvh flex flex-col px-3 transition-all duration-700"
     >
       <header className="sticky top-0 z-50 bg-bg-alt/20 backdrop-blur-md ">
         <nav className="flex flex-row items-center font-bold justify-between px-7 p-4.5 max-w-180 mx-auto">
-          <a className="flex font-space text-ink -ml-1 text-[1.1rem] gap-0.5">
+          <a className="flex font-space text-ink text-[1.1rem] gap-0.5">
             Milan Tyopity
           </a>
 

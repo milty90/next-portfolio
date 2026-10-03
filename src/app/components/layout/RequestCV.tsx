@@ -33,12 +33,12 @@ export function RequestCV() {
   return (
     <div
       id="requestcv"
-      className="overflow-hidden min-h-dvh flex flex-col transition-all duration-700"
+      className="overflow-hidden min-h-dvh px-3 flex flex-col transition-all duration-700"
     >
-      <header className="sticky top-0 z-50 bg-bg-alt/20 backdrop-blur-md border-b border-transparent">
-        <nav className="flex flex-row items-center font-bold justify-between px-10.5 p-4.5 max-w-180 mx-auto">
+      <header className="sticky top-0 z-50 bg-bg-alt/20 backdrop-blur-md ">
+        <nav className="flex flex-row items-center font-bold justify-between px-7 p-4.5 max-w-180 mx-auto">
           <a className="flex font-space text-ink text-[1.1rem] gap-0.5">
-            Milan<span className="text-blue">.</span>Tyopity
+            Milan Tyopity
           </a>
 
           <div className="hidden md:block">
@@ -58,15 +58,15 @@ export function RequestCV() {
         </nav>
       </header>
       <section className="flex flex-1 overflow-hidden pt-5 md:py-15 transition-all duration-700">
-        <div className="flex flex-col  text-ink-soft text-[0.96rem] mb-0 md:max-w-180 mx-auto">
+        <div className="flex flex-col px-5 text-ink-soft text-[0.96rem] mb-0 md:max-w-180 mx-auto">
           <p className="text-copper font-mono mb-3.5 tracking-wide">
             {"Request CV"}
           </p>
-          <h1 className="text-ink text-[2.4rem] font-trafont font-bold tracking-tight mb-10">
+          <h1 className="text-ink text-[2.4rem] font-monospace font-bold tracking-tight mb-10">
             Lebenslauf anfordern{" "}
           </h1>
 
-          <p className="text-ink text-[1.0rem] pr-4 font-inter mb-6">
+          <p className="text-ink text-[1.0rem] font-inter mb-6">
             E-Mail-Adresse eintragen, um meinen Lebenslauf zu erhalten.{" "}
           </p>
 
@@ -101,7 +101,6 @@ export function RequestCV() {
             <p>Etwas ist schiefgelaufen. Bitte versuche es erneut.</p>
           )}
           <div className="mt-auto">
-            <div className="border-t border-line md:w-160 mt-14 mb-3.5"></div>
             <p className="text-ink-soft/60 text-[0.78rem] mb-4 font-mono tracking-wide">
               © 2026 Milan Tyopity. gebaut mit Vite, Tailwind &amp; TS
             </p>

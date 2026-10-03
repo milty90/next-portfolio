@@ -32,7 +32,7 @@ export default function Portfolio() {
           <div className="w-[25rem] mb-10 border-b-2 border-blue/70" />
         </div>
         <div
-          className="flex flex-col justify-center md:justify-between gap-20 py-6 opacity-100 md:opacity-0 md:translate-y-7.5 transition-all duration-700 data-[revealed=true]:opacity-100 data-[revealed=true]:translate-y-0"
+          className="flex flex-col justify-center md:justify-between gap-15 md:gap-20 py-6 opacity-100 md:opacity-0 md:translate-y-7.5 transition-all duration-700 data-[revealed=true]:opacity-100 data-[revealed=true]:translate-y-0"
           ref={ref}
         >
           {projectsData
