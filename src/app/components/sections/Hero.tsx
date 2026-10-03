@@ -56,7 +56,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="relative flex flex-col my-6 items-center justify-center">
-          <div className="relative size-[260px]  md:mx-auto md:w-[260px] md:h-auto lg:mx-0 lg:size-auto lg:ml-auto rounded-full  bg-transparent outline-5 outline-offset-5 outline-panel-2 overflow-hidden ">
+          <div className="relative size-[290px]  md:mx-auto md:w-[260px] md:h-auto lg:mx-0 lg:size-auto lg:ml-auto rounded-full  bg-transparent outline-5 outline-offset-5 outline-panel-2 overflow-hidden ">
             <Image
               src="/4K_me.png"
               alt="Porträt von Milan"

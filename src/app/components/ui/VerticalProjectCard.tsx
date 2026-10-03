@@ -26,7 +26,7 @@ export default function ProjectCard({
     >
       <div>
         <Image
-          className="mb-4 rounded-lg"
+          className="mb-4 rounded-lg sepia-10 shadow-xs"
           width={350}
           height={280}
           src={img}

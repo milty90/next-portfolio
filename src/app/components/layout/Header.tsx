@@ -37,11 +37,8 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-bg-alt/20 backdrop-blur-md border-b border-transparent">
       <nav className="flex flex-row items-center font-bold justify-between px-7 p-6 max-w-(--maxw) mx-auto">
-        <Link
-          href="#top"
-          className="flex font-space text-ink text-[1.1rem] gap-0.5"
-        >
-          <span className="whitespace-nowrap">Milan Tyopity</span>
+        <Link href="#top" className="flex font-space text-ink text-[1.1rem] ">
+          <span className="whitespace-nowrap ">Milan Tyopity</span>
         </Link>
         <ul
           className={`absolute top-15.5 left-0 bg-bg-alt/95 w-dvw px-10 py-5 flex-col gap-7.5 ${
